@@ -27,6 +27,11 @@ sudo make install
 ```
 **Note**: This kernel driver will automatically recompile with every kernel update. No need for manual compilation.
 
+4. **Optional**: Make driver load at boot
+```sh
+echo "hp-omen-wmi" >> /etc/modules-load.d/hp-omen-wmi.conf
+```
+
 ### Useful resources
 [omen-cli](https://github.com/thebongy/omen-cli) - C# Windows utility  
 [hp-omen-linux-module](https://github.com/pelrun/hp-omen-linux-module) - Other Linux kernel driver

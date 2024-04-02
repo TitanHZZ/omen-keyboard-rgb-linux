@@ -29,7 +29,7 @@ sudo make install
 
 4. **Optional**: Make driver load at boot
 ```sh
-echo "hp-omen-wmi" >> /etc/modules-load.d/hp-omen-wmi.conf
+sudo echo "hp-omen-wmi" >> /etc/modules-load.d/hp-omen-wmi.conf
 ```
 
 ### Useful resources
